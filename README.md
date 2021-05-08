@@ -26,3 +26,19 @@
    `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
 
    [react-navigation 公式](https://reactnavigation.org/docs/getting-started)
+
+4. スタックナビゲータライブラリのインストール
+
+   `npm install @react-navigation/stack`
+
+5. ディレクトリ構成・エントリーポイントの変更
+   package.json の main: に指定されているパスがエントリーポイントを指定しているファイルになるので
+   `"main": "node_modules/expo/AppEntry.js",`
+
+   main に指定するファイルを適当な名前で作り、AppEntry.js の内容をコピーする。
+
+   コピーしたら`import App from "./src/App";`のように任意のエントリーポイントを指定
+
+## 実機で動作確認
+
+    `npm start`
