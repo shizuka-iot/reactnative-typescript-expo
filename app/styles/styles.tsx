@@ -15,6 +15,13 @@ const styles = StyleSheet.create({
   red: {
     color: "red",
   },
+  bold: {
+    fontWeight: "bold",
+  },
+  mainTitle: {
+    fontSize: 32,
+    color: "#222",
+  },
 });
 
 export default styles;

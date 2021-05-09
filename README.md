@@ -37,8 +37,11 @@
 
    main に指定するファイルを適当な名前で作り、AppEntry.js の内容をコピーする。
 
-   コピーしたら`import App from "./src/App";`のように任意のエントリーポイントを指定
+   コピーしたら`import App from "./app/App";`のように任意のエントリーポイントを指定
 
 ## 実機で動作確認
 
-    `npm start`
+    npm install
+    npm start
+
+    勝手にブラウザが立ち上がるのでQRコードをスマホに入れてるExpo goで読み取る
