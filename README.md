@@ -31,8 +31,18 @@
 
    `npm install @react-navigation/stack`
 
-5. ディレクトリ構成・エントリーポイントの変更
+5. ドロワーナビゲーションのインストール
+
+スワイプしてドロワーを表示出来るようにするライブラリ
+
+使わないかも
+
+npm install --save @react-navigation/drawer
+
+6. ディレクトリ構成・エントリーポイントの変更
+
    package.json の main: に指定されているパスがエントリーポイントを指定しているファイルになるので
+
    `"main": "node_modules/expo/AppEntry.js",`
 
    main に指定するファイルを適当な名前で作り、AppEntry.js の内容をコピーする。
@@ -44,4 +54,4 @@
     npm install
     npm start
 
-    勝手にブラウザが立ち上がるのでQRコードをスマホに入れてるExpo goで読み取る
+勝手にブラウザが立ち上がるので QR コードをスマホに入れてる Expo go で読み取る
